@@ -1,4 +1,9 @@
-const API_URL = 'https://api.github.com/';
+import App from './src/javascript/app';
+import './src/styles/styles.css';
+
+new App();
+
+/*const API_URL = 'https://api.github.com/';
 const rootElement = document.getElementById('root');
 const loadingElement = document.getElementById('loading-overlay');
 const fightersDetailsMap = new Map();
@@ -137,4 +142,4 @@ class App {
   }
 }
 
-new App();
+new App();*/
