@@ -1,0 +1,102 @@
+
+> bsa2019-webdriverio@1.0.0 test D:\QA\bsa19\Bubble
+> wdio wdio.conf.js
+
+
+Execution of 1 spec files started at 2019-07-19T08:41:21.245Z
+
+2019-07-19T08:41:21.322Z INFO @wdio/cli:Launcher: Run onPrepare hook
+Starting ChromeDriver 75.0.3770.8 (681f24ea911fe754973dda2fdc6d2a2e159dd300-refs/branch-heads/3770@{#40}) on port 4444
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2019-07-19T08:41:21.863Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+[0-0] RUNNING in chrome - D:\QA\bsa19\Bubble\basic.js
+[0-0] 2019-07-19T08:41:22.438Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2019-07-19T08:41:22.586Z INFO webdriver: [POST] http://127.0.0.1:4444/session
+[0-0] 2019-07-19T08:41:22.586Z INFO webdriver: DATA { capabilities:
+   { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' } }
+[0-0] 2019-07-19T08:41:25.036Z INFO webdriver: COMMAND navigateTo("https://task1-bvckdxdkxw.now.sh/")
+[0-0] 2019-07-19T08:41:25.037Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/url
+[0-0] 2019-07-19T08:41:25.041Z INFO webdriver: DATA { url: 'https://task1-bvckdxdkxw.now.sh/' }
+[0-0] 2019-07-19T08:41:26.434Z INFO webdriver: COMMAND maximizeWindow()
+[0-0] 2019-07-19T08:41:26.435Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/window/maximize
+[0-0] 2019-07-19T08:41:27.575Z INFO webdriver: RESULT { height: 696, width: 1296, x: -8, y: -8 }
+[0-0] 2019-07-19T08:41:32.579Z INFO webdriver: COMMAND findElements("css selector", "div.bubble")
+[0-0] 2019-07-19T08:41:32.580Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/elements
+[0-0] 2019-07-19T08:41:32.580Z INFO webdriver: DATA { using: 'css selector', value: 'div.bubble' }
+[0-0] 2019-07-19T08:41:32.600Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ba56c014-2d2b-4478-90e5-2becedcdd868' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '48bb229d-b121-47fe-a89f-d38447591c0b' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '15c3f942-6863-4d0a-92ee-04ef234a1194' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'ffefb9d7-4554-4c73-911b-215f237ff912' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'a7ef6131-ede0-422f-af35-07bf3f487458' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '2db86c72-9ff7-4ff9-964a-c6cb5e90ec7c' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '93019c4c-411d-41a0-a430-060a1cf3dc83' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'dbe38ced-3b94-4f33-b6ab-8aa971d93b83' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '1703a6bf-4c99-404c-bc2a-99decf800e79' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '53fbec11-79eb-45f3-b1d8-f01fc3beb97c' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'c75f163b-171b-4a92-8183-ae7647854e1f' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '2b9aae78-8152-49e1-8450-df6516a626b4' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '81ce20f9-d086-42dc-ac6a-c7193b2d1d7e' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '482c048d-8b9a-480f-8481-d4e15875639a' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '75f23f0f-b1cc-45fe-bdbb-40204f27ef4b' } ]
+[0-0] Length15
+[0-0] 2019-07-19T08:41:32.665Z INFO webdriver: COMMAND elementClick("ba56c014-2d2b-4478-90e5-2becedcdd868")
+[0-0] 2019-07-19T08:41:32.666Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/ba56c014-2d2b-4478-90e5-2becedcdd868/click
+[0-0] 2019-07-19T08:41:32.728Z INFO webdriver: COMMAND elementClick("48bb229d-b121-47fe-a89f-d38447591c0b")
+2019-07-19T08:41:32.728Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/48bb229d-b121-47fe-a89f-d38447591c0b/click
+[0-0] 2019-07-19T08:41:32.789Z INFO webdriver: COMMAND elementClick("15c3f942-6863-4d0a-92ee-04ef234a1194")
+[0-0] 2019-07-19T08:41:32.789Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/15c3f942-6863-4d0a-92ee-04ef234a1194/click
+[0-0] 2019-07-19T08:41:32.855Z INFO webdriver: COMMAND elementClick("ffefb9d7-4554-4c73-911b-215f237ff912")
+[0-0] 2019-07-19T08:41:32.856Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/ffefb9d7-4554-4c73-911b-215f237ff912/click
+[0-0] 2019-07-19T08:41:32.922Z INFO webdriver: COMMAND elementClick("a7ef6131-ede0-422f-af35-07bf3f487458")
+[0-0] 2019-07-19T08:41:32.923Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/a7ef6131-ede0-422f-af35-07bf3f487458/click
+[0-0] 2019-07-19T08:41:32.987Z INFO webdriver: COMMAND elementClick("2db86c72-9ff7-4ff9-964a-c6cb5e90ec7c")
+[0-0] 2019-07-19T08:41:32.987Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/2db86c72-9ff7-4ff9-964a-c6cb5e90ec7c/click
+[0-0] 2019-07-19T08:41:33.044Z INFO webdriver: COMMAND elementClick("93019c4c-411d-41a0-a430-060a1cf3dc83")
+[0-0] 2019-07-19T08:41:33.044Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/93019c4c-411d-41a0-a430-060a1cf3dc83/click
+[0-0] 2019-07-19T08:41:33.105Z INFO webdriver: COMMAND elementClick("dbe38ced-3b94-4f33-b6ab-8aa971d93b83")
+[0-0] 2019-07-19T08:41:33.105Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/dbe38ced-3b94-4f33-b6ab-8aa971d93b83/click
+[0-0] 2019-07-19T08:41:33.172Z INFO webdriver: COMMAND elementClick("1703a6bf-4c99-404c-bc2a-99decf800e79")
+[0-0] 2019-07-19T08:41:33.172Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/1703a6bf-4c99-404c-bc2a-99decf800e79/click
+[0-0] 2019-07-19T08:41:33.221Z INFO webdriver: COMMAND elementClick("53fbec11-79eb-45f3-b1d8-f01fc3beb97c")
+[0-0] 2019-07-19T08:41:33.221Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/53fbec11-79eb-45f3-b1d8-f01fc3beb97c/click
+[0-0] 2019-07-19T08:41:33.288Z INFO webdriver: COMMAND elementClick("c75f163b-171b-4a92-8183-ae7647854e1f")
+[0-0] 2019-07-19T08:41:33.289Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/c75f163b-171b-4a92-8183-ae7647854e1f/click
+[0-0] 2019-07-19T08:41:33.357Z INFO webdriver: COMMAND elementClick("2b9aae78-8152-49e1-8450-df6516a626b4")
+[0-0] 2019-07-19T08:41:33.357Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/2b9aae78-8152-49e1-8450-df6516a626b4/click
+[0-0] 2019-07-19T08:41:33.438Z INFO webdriver: COMMAND elementClick("81ce20f9-d086-42dc-ac6a-c7193b2d1d7e")
+[0-0] 2019-07-19T08:41:33.439Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/81ce20f9-d086-42dc-ac6a-c7193b2d1d7e/click
+[0-0] 2019-07-19T08:41:33.505Z INFO webdriver: COMMAND elementClick("482c048d-8b9a-480f-8481-d4e15875639a")
+[0-0] 2019-07-19T08:41:33.505Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/482c048d-8b9a-480f-8481-d4e15875639a/click
+[0-0] 2019-07-19T08:41:33.575Z INFO webdriver: COMMAND elementClick("75f23f0f-b1cc-45fe-bdbb-40204f27ef4b")
+[0-0] 2019-07-19T08:41:33.575Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/75f23f0f-b1cc-45fe-bdbb-40204f27ef4b/click
+[0-0] 2019-07-19T08:41:33.637Z INFO webdriver: COMMAND findElement("css selector", "div#score")
+[0-0] 2019-07-19T08:41:33.637Z INFO webdriver: [POST] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element
+[0-0] 2019-07-19T08:41:33.638Z INFO webdriver: DATA { using: 'css selector', value: 'div#score' }
+[0-0] 2019-07-19T08:41:33.657Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '041bc94c-0aa4-4afc-8b08-1299e0886113' }
+[0-0] 2019-07-19T08:41:33.664Z INFO webdriver: COMMAND getElementText("041bc94c-0aa4-4afc-8b08-1299e0886113")
+[0-0] 2019-07-19T08:41:33.665Z INFO webdriver: [GET] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e/element/041bc94c-0aa4-4afc-8b08-1299e0886113/text
+[0-0] 2019-07-19T08:41:33.690Z INFO webdriver: RESULT 15
+[0-0] Get test:15
+[0-0] 2019-07-19T08:41:34.694Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2019-07-19T08:41:34.694Z INFO webdriver: [DELETE] http://127.0.0.1:4444/session/069e09104f4958ddf0fa31fff6281a2e
+[0-0] PASSED in chrome - D:\QA\bsa19\Bubble\basic.js
+2019-07-19T08:41:34.938Z INFO @wdio/cli:Launcher: Run onComplete hook
+
+ "dot" Reporter:
+.
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome  windows nt #0-0] Spec: D:\QA\bsa19\Bubble\basic.js
+[chrome  windows nt #0-0] Running: chrome on windows nt
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0] Bubble
+[chrome  windows nt #0-0]    ✓ Lop-lop-lop
+[chrome  windows nt #0-0]
+[chrome  windows nt #0-0] 1 passing (9.8s)
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:13 
+
